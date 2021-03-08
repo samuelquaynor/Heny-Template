@@ -1,8 +1,241 @@
-.navbar .container{
-    margin: 0 60px;
-    padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", serif;
+}
+
+.mr-5,
+.mx-5 {
+  margin-right: 3rem !important;
+}
+
+.mr-2,
+.mx-2 {
+  margin-right: 0.5rem !important;
+}
+
+.text-primary {
+  color: #f9b121 !important;
+}
+
+.section-one i {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+.navbar .container {
+  padding: 0;
 }
 
 .heny-logo {
-  width: 100px;
+  width: 90px;
+}
+
+.nav-link {
+  padding-right: 10px, 15px;
+  font-size: 14px;
+}
+
+.action-button {
+  border-radius: 20px;
+  background-color: #f9b121;
+  border: none;
+  color: #fff;
+  font-size: 15px;
+}
+
+.top-light {
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 900;
+  letter-spacing: 0.1rem;
+  font-size: 12px;
+}
+
+.heading {
+  font-size: 70px;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  font-family: "Playfair Display", serif;
+}
+
+.sub-heading {
+  box-sizing: border-box;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+}
+
+.sub-heading p {
+  max-width: 550px;
+}
+
+.btn-primary {
+  background-color: #f9b121;
+  border: none;
+}
+
+.btn {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 30px;
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.05rem;
+}
+
+.btn:hover {
+  background-color: #f9b121;
+}
+
+.in-content {
+  margin-top: 60px;
+}
+
+.dess-item {
+  padding: 20px;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.dess-item figure img {
+  max-width: 100%;
+}
+
+.dess-item > div h3 {
+  font-size: 20px;
+  color: #000;
+}
+
+.price {
+  color: #f9b121;
+  font-size: 20px;
+}
+
+.subtitle {
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.1rem;
+}
+
+.section-top2 h3 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.section-top2 i {
+  font-style: italic;
+}
+
+.deshes-area h1 {
+  color: #131230;
+  font-style: inherit;
+  position: relative;
+  font-size: 60px;
+  font-weight: 700px;
+}
+
+.deshes-area h1:after {
+  content: "";
+  position: absolute;
+  top: 45px;
+  left: 90px;
+  width: 200px;
+  height: 1px;
+  background: #131230;
+}
+
+.deshes-area .deshes-text {
+  padding-left: 90px;
+}
+
+.deshes-text span {
+  color: #f9b121;
+}
+
+.deshes-text h3 {
+  font-size: 36px;
+  font-weight: 900px !important;
+}
+
+.deshes-area .style-change {
+  font-size: 30px;
+  font-weight: 700;
+  display: block;
+}
+
+.template-btn3 {
+  color: #131230;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+  display: inline-block;
+  position: relative;
+}
+
+.update-area .single-food .food-content {
+  padding: 40px 30px;
+  background: #f9f9ff;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.update-area h5 {
+  color: #131230;
+  font-family: "Playfair Display", serif;
+  text-transform: capitalize;
+  font-size: 20px !important;
+  font-weight: 700;
+}
+
+.site-footer {
+  background: #645f56;
+  font-size: 14px;
+  color: #fff;
+  padding: 70px 0;
+}
+
+.site-footer .widget {
+  margin-bottom: 40px;
+  display: block;
+  position: relative;
+  z-index: 1;
+}
+
+.site-footer .widget h3 {
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.site-footer .widget a {
+  width: 150px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.site-footer .widget a:hover {
+  color: #fff;
 }
